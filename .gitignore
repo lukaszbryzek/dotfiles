@@ -1,0 +1,5 @@
+# Plugins are installed by TPM, not tracked in git
+tmux/tmux/plugins/
+
+# macOS
+.DS_Store
