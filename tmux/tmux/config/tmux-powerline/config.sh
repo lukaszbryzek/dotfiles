@@ -350,12 +350,12 @@
 
 # tmux_continuum_save.sh {
 	# Path to the tmux-continuum git repo.
-	export TMUX_POWERLINE_SEG_TMUX_CONTINUUM_PATH="/Users/icamtuff/.config/tmux/plugins/tmux-continuum"
+	export TMUX_POWERLINE_SEG_TMUX_CONTINUUM_PATH="${XDG_DATA_HOME:-$HOME/.local/share}/tmux/plugins/tmux-continuum"
 # }
 
 # tmux_continuum_status.sh {
 	# Path to the tmux-continuum git repo.
-	export TMUX_POWERLINE_SEG_TMUX_CONTINUUM_PATH="/Users/icamtuff/.config/tmux/plugins/tmux-continuum"
+	export TMUX_POWERLINE_SEG_TMUX_CONTINUUM_PATH="${XDG_DATA_HOME:-$HOME/.local/share}/tmux/plugins/tmux-continuum"
 	# Message to perfix the status indication with.
 	export TMUX_POWERLINE_SEG_TMUX_CONTINUUM_PREFIX="Continuum status: "
 # }
