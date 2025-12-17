@@ -57,7 +57,8 @@ stow -n -v tmux
 stow -v tmux
 
 # Clone TPM (Tmux Plugin Manager) - required for tmux.
-git clone https://github.com/tmux-plugins/tpm ~/.dotfiles/tmux/tmux/plugins/tpm
+# Plugins are stored in ~/.local/share/tmux/plugins (XDG_DATA_HOME)
+git clone https://github.com/tmux-plugins/tpm ~/.local/share/tmux/plugins/tpm
 
 # Start tmux.
 tmux
